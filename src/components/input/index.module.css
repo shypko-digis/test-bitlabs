@@ -1,0 +1,47 @@
+.root {
+  border-radius: 16px;
+  background: var(--dark-blue);
+  position: relative;
+  max-width: 650px;
+  color: var(--white);
+  padding: 24px 29px 32px 29px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.inputWrap {
+  max-width: 70%;
+}
+
+.input {
+  background: var(--dark-blue);
+  border: none;
+  line-height: 47px;
+  color: var(--white);
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.fakeSelect {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.img img {
+  margin-left: 14px;
+  display: block;
+}
+
+.img {
+  display: flex;
+}
